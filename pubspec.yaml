@@ -4,12 +4,16 @@ version: 2.0.2
 homepage: https://github.com/cachapa/hive_crdt
 repository: https://github.com/cachapa/hive_crdt
 issue_tracker: https://github.com/cachapa/hive_crdt/issues
+publish_to: none
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  crdt: ^4.0.2
+  crdt:
+    git: 
+      url: https://github.com/teemu-kemppainen/crdt.git
+      ref: fix_javascript_compatibility
   hive: ^2.0.4
 
 dev_dependencies:
