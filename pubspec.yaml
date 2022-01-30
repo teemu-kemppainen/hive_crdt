@@ -11,9 +11,7 @@ environment:
 
 dependencies:
   crdt:
-    git: 
-      url: https://github.com/teemu-kemppainen/crdt.git
-      ref: fix_javascript_compatibility
+    git: https://github.com/teemu-kemppainen/crdt.git
   hive: ^2.0.4
 
 dev_dependencies:
